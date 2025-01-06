@@ -47,6 +47,8 @@ st.markdown(
     }
     .projectwrapper {
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     h5{
         text-align: center;
@@ -57,7 +59,7 @@ st.markdown(
         margin: 20px;
         padding: 20px;
         transition: 0.5s;
-        width: 35%;
+        width: 350px;
     }
     .certificatecard {
         box-shadow: 0 5px 10px 0 rgba(46, 46, 46, 0.2);
@@ -65,7 +67,7 @@ st.markdown(
         margin: 20px;
         padding: 20px;
         transition: 0.5s;
-        width: 35%;
+        width: 250px;
     }
     a:link {
         text-decoration: none;
