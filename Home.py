@@ -48,7 +48,6 @@ st.markdown(
     .projectwrapper {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
     }
     h5{
         text-align: center;
@@ -57,9 +56,18 @@ st.markdown(
         box-shadow: 0 5px 10px 0 rgba(46, 46, 46, 0.2);
         text-align: justify;
         margin: 20px;
-        padding: 20px;
         transition: 0.5s;
         width: 350px;
+    }
+    .projectcard img{
+        object-fit:contain;
+        margin:0;
+    }
+    .projectcard h5{
+        margin:20px 0 0 0;
+    }
+    .projectcard p{
+        margin: 0 20px 20px 20px;
     }
     .certificatecard {
         box-shadow: 0 5px 10px 0 rgba(46, 46, 46, 0.2);
@@ -138,19 +146,26 @@ st.markdown('<div class="subtitle">Implementation of my Skills and Learnings in 
 
 st.markdown("""<div class="projectwrapper">
             <a href="https://campus-reviewer.streamlit.app", class="projectcard">
+                <img src="https://i.imgur.com/7ZjI1aS.png"></img>
                 <h5>Campus Reviewer</h5>
                 <p>Campus Reviewer is a python based website that helps students in choosing best fit institutions. It provides graphical representation on sentiment analysis of college reviews in terms of Infrastructure, Academics, Placements of the college. It also supports College recommendation system and JoSAA College predictor that assists students in their college searching process.</p>
             </a>
             <a href="https://dermalens.streamlit.app", class="projectcard">
+                <img src="https://i.imgur.com/2t1GMNg.png"></img>
                 <h5>DermaLens</h5>
                 <p>DermaLens is a python based website developed using streamlit that helps in the diagnosis of skin diseases by taking image of affected area. Provides a brief description for the disease and remedies to cure it.</p>
             </a>
             <a href="https://github.com/vaibhav-120/Fitness-Tracker", class="projectcard">
+                <img src="https://i.imgur.com/APhtkjc.png"></img>
                 <h5>Fitness Tracker</h5>
                 <p>Fitness Tracker is a python based desktop application that helps users manage their fitness journey. It offers features like weight tracking, a meal generator and tracker, workout tracking with instructional exercise videos, and hydration reminders. It generates custom plan for the users according to the goal specified by them. The app provides an all-in-one solution for users to monitor their health goals and stay on track with their fitness routines.</p>
             </a>
+            <a href="https://github.com/vaibhav-120/Fitness-Tracker", class="projectcard">
+                <img src="https://i.imgur.com/0OxIXXr.png"></img>
+                <h5>Interactive Sales Dashboard in PowerBI</h5>
+                <p>This Power BI dashboard was designed to provide a comprehensive and visually engaging overview of sales performance, enabling data-driven decision-making. Key features of the dashboard include: Revenue Insights, Regional Performance, Product Analysis, KPIs and Trends, Interactivity. This project demonstrates my ability to: Transform raw sales data into actionable insights, Leverage Power BI’s advanced visualization tools for storytelling, Optimize dashboards for performance and user engagement.</p>
+            </a>
 </div>""", unsafe_allow_html=True)
-
 
 st.markdown("---")
 
@@ -183,6 +198,7 @@ imageplace(col14,'images/opencv.png',"OpenCV")
 imageplace(col15,'images/sql.png',"SQL, PL/SQL, Apex Oracle")
 imageplace(col16,'images/git.png',"Git")
 imageplace(col17,'images/fastapi.png',"FastAPI")
+
 imageplace(col18,'images/c.png',"C")
 imageplace(col19,'images/c++.png',"C++")
 imageplace(col20,'images/powerbi.png',"PowerBI")
