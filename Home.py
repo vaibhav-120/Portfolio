@@ -101,16 +101,21 @@ st.markdown(
     .projectcard:hover {
         box-shadow: 0 20px 40px 0 rgba(46, 46, 46, 0.2);
     }
-    .skillcard {
-        width: 15%;
-        margin: 20px;
-    }
     button{
         margin: 20px;
         border: 0;
         padding: 7px 14px;
+        color: white;
         background-color: #2e63b8;
         border-radius: 40px;
+    }
+    .skillcard{
+        height: 100px;
+    }
+    .skill{
+        text-align: center;
+        color: #444;
+        margin: 0px 5px;
     }
     </style>
     """,
@@ -173,38 +178,82 @@ st.markdown("""<div class="projectwrapper">
 st.markdown("---")
 
 st.markdown('<div class="main-title">Skills</div>', unsafe_allow_html=True)
+st.markdown("""<div class="projectwrapper">
+    <div class="skill">
+        <img class="skillcard" src="https://i.imgur.com/gLTj173.png">
+        <p>Python</p>
+    </div>
+    <div class="skill">
+        <img class="skillcard" src="https://i.imgur.com/WMb8ZJc.png">
+        <p>Sci-kit Learn</p>
+    </div>
+    <div class="skill">
+        <img class="skillcard" src="https://i.imgur.com/jsbHqpp.png">
+        <p>TensorFlow</p>
+    </div>
+    <div class="skill">
+        <img class="skillcard" src="https://i.imgur.com/QwcDSFq.png">
+        <p>Pandas</p>
+    </div>
+    <div class="skill">
+        <img class="skillcard" src="https://i.imgur.com/QGsL4CD.png">
+        <p>Numpy</p>
+    </div>
+    <div class="skill">
+        <img class="skillcard" src="https://i.imgur.com/PrPWBwX.png">
+        <p>Matplotlib</p>
+    </div>
+    <div class="skill">
+        <img class="skillcard" src="https://i.imgur.com/O99cfxT.png">
+        <p>Plotly</p>
+    </div>
+    <div class="skill">
+        <img class="skillcard" src="https://i.imgur.com/6uRQzUk.png">
+        <p>Seaborn</p>
+    </div>
+    <div class="skill">
+        <img class="skillcard" src="https://i.imgur.com/Ur9UgBw.png">
+        <p>Google Colab</p>
+    </div>
+    <div class="skill">
+        <img class="skillcard" src="https://i.imgur.com/tuVWtyl.png">
+        <p>Streamlit</p>
+    </div>
+    <div class="skill">
+        <img class="skillcard" src="https://i.imgur.com/OWyJ7kC.png">
+        <p>Jupyter Notebook</p>
+    </div>
+    <div class="skill">
+        <img class="skillcard" src="https://i.imgur.com/lVS2YvQ.png">
+        <p>Computer Vision</p>
+    </div>
+    <div class="skill">
+        <img class="skillcard" src="https://i.imgur.com/w4RyGUO.png">
+        <p>SQL, PL/SQL, Apex Oracle</p>
+    </div>
+    <div class="skill">
+        <img class="skillcard" src="https://i.imgur.com/FYu6KNu.png">
+        <p>Git</p>
+    </div>
+    <div class="skill">
+        <img class="skillcard" src="https://i.imgur.com/3IAdfYi.png">
+        <p>FastAPI</p>
+    </div>
+    <div class="skill">
+        <img class="skillcard" src="https://i.imgur.com/RhY0vQM.png">
+        <p>C</p>
+    </div>
+    <div class="skill">
+        <img class="skillcard" src="https://i.imgur.com/Br3Extw.png">
+        <p>C++</p>
+    </div>
+    <div class="skill">
+        <img class="skillcard" src="https://i.imgur.com/dQrUf0y.png">
+        <p>PowerBI</p>
+    </div>
+</div>
+""", unsafe_allow_html=True)
 
-def imageplace(col,img,title):
-    with col:
-        st.image(img,title)
-
-
-col3,col4,col5,col6,col7,col8 = st.columns([2,3.5,2,4,4,4])
-st.container(height=20,border=False)
-col9,col10,col11,col12,col13,col14,col15,col16 = st.columns(8)
-st.container(height=20,border=False)
-col17,col18,col19,col20,d,d,d,d = st.columns(8)
-
-imageplace(col3,'images/python.png',"Python")
-imageplace(col4,'images/sklearn.png',"Sci-kit learn")
-imageplace(col5,'images/tensorflow.png',"TensorFlow")
-imageplace(col6,'images/pandas.png',"Pandas")
-imageplace(col7,'images/matplotlib.png',"Matplotlib")
-imageplace(col8,'images/plotly.png',"Plotly")
-
-imageplace(col9,'images/numpy.png',"Numpy")
-imageplace(col10,'images/seaborn.png',"Seaborn")
-imageplace(col11,'images/colab.png',"Google Colab")
-imageplace(col12,'images/streamlit.png',"Streamlit")
-imageplace(col13,'images/jupyter.png',"Jupyter Notebook")
-imageplace(col14,'images/opencv.png',"OpenCV")
-imageplace(col15,'images/sql.png',"SQL, PL/SQL, Apex Oracle")
-imageplace(col16,'images/git.png',"Git")
-imageplace(col17,'images/fastapi.png',"FastAPI")
-
-imageplace(col18,'images/c.png',"C")
-imageplace(col19,'images/c++.png',"C++")
-imageplace(col20,'images/powerbi.png',"PowerBI")
 
 st.markdown("---")
 
