@@ -135,7 +135,7 @@ with col1:
                 <a href="mailto:vs2409425@gmail.com?subject=Hi Vaibhav"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABNVBMVEX////rQTIArkVChfX/uwDGIh0AAAAufPTh6/3a8eIAqTI6gfXqOCcArD6Ir/hvyYrqNzTSLyb5mxjtW091yo46iPz61dPqKxP/twBkc89UsTrCAADHIRnKGgDqLhkqKirExMTd3d3w8PBYWFizs7OVlZWgoKB5eXnPz8+BgYH/783EEwvx0dHptrX/5bDNREH/wSz85uTsRjfyioLvb2b0n5ntUkX98vH3urb1qqXfkpHagoDkpaTux8f/+u3/357/14T/03bRW1j/3Zn/yE3ILCfVa2n/zV756ur7qzflqqj/9uLm4+23ECbptQDQ8N+bNmu8sgBvWrJyrhicTH+2tiGQVpKitSe6Lz1PfeSMidB5q2BRjvYgtFR3pPdYwnns+fHO3fy55Ma4zvubu/mh27OH0JxzIba+AAAGt0lEQVR4nO3caVPbRhjA8SUQkRI5SUuwaZ34kA/ZQA5ykQQKIWebtul9pE16Efr9P0Jly4eOvYSfR6vVPP8XvGDC7P7mWWnNDBPm8Gv6/VbbY3bktVt9vymQMN43O11bbNG8bkdT2LORF+b1NIR907tcsL5C6Ns7v2meLxMOTG8PpIFQ2DG9NbA6fOHQ9L4AG/KEPdO7Aq2XFpYLGCFOhWU6omHDuLA8L5l5nZjQ9G5QigrLcQ8mG8yFvum9IOXPhKZ3gtZUaPuHbXH9idD0PhALhWW766P1xkL7f2ES542EZbzs53UCYdf0JlDrBsIyH9LRMWVN03tArsnK+nlmms/Ke92H9VnL9BaQa7G26S0g12blfpWy0vsoiqIoiqIoiqIoiqIoqtDt7bx+vL//+ODzvZwWPNw6enJ8/ORo6zCX5W48rQdtb28HX28d4CMPn93enPX8Jvp6B/X6tfOzrtXr+7jGw+PNzZVImyvPUNfbeVE/n2i7/hpxwZtxX2jcwlvvIDq/WfWXaAu+SvnGRrQx7qcGOCHeQlrwNhcYEI9x1nssAAYnFYcoAgbEJxjr3RACkYhiYEBEeKd+IQGiEGXAgAh/NT7dlgnhiXLgyuZz4PXYjnSE8EQFMCBC3xmKEUITv1T4goCHKH8KJ8R1sOXWP1ELgZ/E1xrCj10o4rqrIzwCWi3spfKQBsIlIOK6e0VDuPIKZLFpL3gf11JCGOK6u6QlXAFYa9aexiEdCSGIAVBPCPog7uoKFyeOgJrCr0BsYfrCRYljYLGFixFDYMGFixAnQAPCr7MIz06cAjWFHwEKL3yjd1ssRpwB9YRvvoUUfqd14y9GnAP1hN+DCn+4nkl4FmIEqCf8EVS4mlGYnRgF6gnXQJ/D1Z/UxzQmzEqMAbWEPwML36qHGBdmI8aBWsIKsHDjFyUxIcxCTAB1hL+eAxYub/ymOqdJoT4xCdQQvjkHLlx+e11xJ6aEusQUUENYQRBufKogpoV6xDRQLfzsHIJQSeQIdYgcoFI4AiIIVUSeUE3kAVXCMRBDqCByhSoiF6gQhkAUoZzIF8qJfKBcOAHiCKVEgVBGFAClwikQSSgjioRioggoE86AWEIJUSgUEYVAiXAORBOKiWIhnygGioURIJ5QSJQIeUQJUCiMAhGFIqJMmCbKgCJhDIgpFBClwiRRChQI40BUIZ8oF8aJciBfmADiCrlEhTBKVAC5wiQQWcgjqoRzogrIE6aA2EIOUSmcEpVAjjANRBemiWphSFQD00IOEF+YImoIA+KeBjAl5AFzECaJOsIl19UAJoVcYB7CBFFLqFdcyAfmIowTsYQCYD7CGBFJKALmJIwScYRCYF7CCBFFKAbmJpwTMYQSYH7CGRFBKAPmKJwS4YVSYJ7CCRFcKAfmKgyJ0EIFMF/hmAgsVAFzFo6IsEIlMG/hiAgpVANzFy5v/F4DE7p/qIH5Cy9eqkIRa9XLlUIKWbUBAmxUWVGFDGSKtSorrhCCOAIWWLj4QW2MgEUWLjrF8QSLLVxsiuEECy5chDgFFlx49oNamwKLLjzrFGcTLL7wbMQIsPjCsxzUWgRogTD7FKMTtEKYdYqxCdohzEZMAO0QZjmojQTQEqH+FJMTtEaoS0wDrRHqHdTUEbVJqDNFzgRtEqqJXKBNQtVB5R1Ry4TyKfInaJlQNkXBBG0TiolCoG1CtnuH90c07p1d4U/YJmTsbi1pdGt3Jf/ePiHbvRczurV74gHaKQyM9x80Gg3XdYOvD+5LfZYKg/aqDx89evSwqv6PCG0V6kdCEmaOhCTMHAlJmDkSkjBzJCRh5khIwsyRkITZK6Twb8AF2bsCCt8DrsfYh4uFE1auAq6n9SDmLYR9DBn7UznEnIWVvwCXG+Uph5izEPY9M+ofFTFf4dq/gKtNUhHzFFYwgMHb5t2q7GHMUbj2HvgtM+vk3erqRVGroMK1iqi1tfengCslu3Dy4ZKoE8B1Ti9fFfTfKdb8KIqiKIqiKIqiKIqiKIqS55neAHIea5veAnJt1jK9BeRarG96C8j1mW96C8j5rGl6C8g1mVPul6nnMKdrehOodQNhx/QmUOsEwlIfU88ZCXumt4FYbyx0TG8DMScUlvfS70+E5R2iMxWW9XONPxM6A9N7QWngzIXlPKdOVFjGa78TEzpD0/sBb+jEhaW793tOUlgy4gwYEZbqoA4dnrBEr5uOwxeW5V4cxExxoePb/6uU5zsyof0fw/tJUEoYvFTtnaPXS3M4wuCV07UR6XU7PAxXGNT0+622LU6v3er7TYHkfzMiFEURMza0AAAAAElFTkSuQmCC", width=37px></img></a>
     </div>""", unsafe_allow_html=True)
     st.markdown(f"""<div class="imgwrapper">
-                <a href="https://drive.google.com/file/d/1iwDYnjSNl01S-jYJTzuj5J8DaVZu0S3l/view?usp=drive_link"><button>Download Resume</button></a>
+                <a href="https://drive.google.com/file/d/1L2O-ibv1HQ7s9SzRusqwgsTHzMkaIDuh/view?usp=sharing"><button>Download Resume</button></a>
     </div>""", unsafe_allow_html=True)
     
 
@@ -145,13 +145,10 @@ with col2:
     st.markdown('<div class="summary">A passionate <b>Data Scientist</b> with 2 years of experience in <b>analyzing data</b>, building predictive models, and solving complex problems. I specialize in <b>Machine Learning</b>, <b>Data Visualization</b>, and <b>Statistical Analysis</b> using tools like Python, SQL, and PowerBI. I thrive at the intersection of curiosity and creativity, where data meets real-world impact. Explore my portfolio to see some of my work!</div>', unsafe_allow_html=True)
 
 
-
 st.markdown("---")
 
 st.markdown('<div class="main-title">Projects</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">Implementation of my Skills and Learnings in real life</div>', unsafe_allow_html=True)
-
-
 st.markdown("""<div class="projectwrapper">
             <a href="https://campus-reviewer.streamlit.app", class="projectcard">
                 <img src="https://i.imgur.com/7ZjI1aS.png"></img>
