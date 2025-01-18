@@ -168,7 +168,7 @@ st.markdown("""<div class="projectwrapper">
                 <h5>Fitness Tracker</h5>
                 <p>Fitness Tracker is a python based desktop application that helps users manage their fitness journey. It offers features like weight tracking, a meal generator and tracker, workout tracking with instructional exercise videos, and hydration reminders. It generates custom plan for the users according to the goal specified by them. The app provides an all-in-one solution for users to monitor their health goals and stay on track with their fitness routines.</p>
             </a>
-            <a href="https://github.com/vaibhav-120/Fitness-Tracker", class="projectcard">
+            <a href="https://drive.google.com/file/d/1XKXRuc01eDyKhouwC_iYK6Dm1Vg1fB00/view?usp=sharing", class="projectcard">
                 <img src="https://i.imgur.com/0OxIXXr.png"></img>
                 <h5>Interactive Sales Dashboard in PowerBI</h5>
                 <p>This Power BI dashboard was designed to provide a comprehensive and visually engaging overview of sales performance, enabling data-driven decision-making. Key features of the dashboard include: Revenue Insights, Regional Performance, Product Analysis, KPIs and Trends, Interactivity. This project demonstrates my ability to: Transform raw sales data into actionable insights, Leverage Power BI’s advanced visualization tools for storytelling, Optimize dashboards for performance and user engagement.</p>
