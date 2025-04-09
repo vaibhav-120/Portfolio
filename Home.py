@@ -1,14 +1,6 @@
 import streamlit as st
-import requests
-from streamlit_lottie import st_lottie
 
 st.set_page_config(page_title="Vaibhav's Portfolio", layout="wide", initial_sidebar_state="collapsed")
-
-def load_url(url: str):
-    r = requests.get(url)
-    return r.json()
-
-
 
 st.markdown(
     """
@@ -22,6 +14,10 @@ st.markdown(
         font-weight: bold;
         text-align: center;
         animation: fadeInDown 2s ease-in-out;
+        margin: 80px 0px 0px 0px;
+    }
+    .profilepic{
+        border-radius: 50%
     }
     img{
         margin:15px 10px 0px 20px;
@@ -44,7 +40,6 @@ st.markdown(
     .summary {
         font-size: 18px;
         text-align: justify;
-        margin: 80px 0px;
         animation: fadeInDown 2.5s ease-in-out;
     }
     .projectwrapper {
@@ -122,12 +117,12 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-intro_animation = load_url("https://lottie.host/25f44a7e-9c2a-444e-aec1-d25f9363fc05/GsAK5jark6.json")
-
 col1, d,col2 = st.columns([1.5,1, 5])
 
 with col1:
-    st_lottie(intro_animation)
+    st.markdown(f"""
+                <img src="https://i.imgur.com/SHIUOPl.jpeg" class="profilepic"></img>
+    """,unsafe_allow_html=True)
     st.markdown('<div class="name">Vaibhav Shrivastava</div>', unsafe_allow_html=True)
     st.markdown(f"""<div class="imgwrapper">
                 <a href="www.linkedin.com/in/vaibhav-shrivastava120"><img src="data:image/png;base64,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", width=40px></img></a>
@@ -141,8 +136,8 @@ with col1:
 
 with col2:
     st.markdown('<div class="main-title">Hi! I’m Vaibhav</div>', unsafe_allow_html=True)
-    st.markdown('<div class="subtitle">A passionate Data Scientist specializing in ML, AI, and Data Visualization</div>', unsafe_allow_html=True)
-    st.markdown('<div class="summary">A passionate <b>Data Scientist</b> with 2 years of experience in <b>analyzing data</b>, building predictive models, and solving complex problems. I specialize in <b>Machine Learning</b>, <b>Data Visualization</b>, and <b>Statistical Analysis</b> using tools like Python, SQL, and PowerBI. I thrive at the intersection of curiosity and creativity, where data meets real-world impact. Explore my portfolio to see some of my work!</div>', unsafe_allow_html=True)
+    st.markdown('<div class="subtitle">A passionate AI Engineer</div>', unsafe_allow_html=True)
+    st.markdown('<div class="summary">I am a Computer Science student at DAV University with a GPA of 8.5+. I have worked with various tools and frameworks, including Python, TensorFlow, PyTorch, LangChain, OpenAI API, Hugging Face, and vector database like FAISS. My experience also extends to data science and analytics, enabling me to develop and optimize AI-driven solutions with a data-centric approach.', unsafe_allow_html=True)
 
 
 st.markdown("---")
