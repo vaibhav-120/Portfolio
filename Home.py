@@ -157,7 +157,7 @@ st.markdown("""<div class="projectwrapper">
             </a>
             <a href="https://drive.google.com/file/d/1JC3-93cKTsxZWMaCXrX22-my7uxaoQga/view?usp=sharing", class="projectcard">
                 <img src="https://i.imgur.com/NJyiOdy.jpeg"></img>
-                <h5>DermaLens</h5>
+                <h5>Multipage Dashboard for Maven Market</h5>
                 <p>This is a multi-page interactive dashboard in Power BI that transforms raw data into actionable insights. This dashboard helps analyses of each factor like stores, customers, products that effects sales performance, revenue growth and market trends enabling data-driven decision-making. </p>
             </a>
             <a href="https://github.com/vaibhav-120/Fitness-Tracker", class="projectcard">
